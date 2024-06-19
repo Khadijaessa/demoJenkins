@@ -11,5 +11,13 @@ pipeline {
       }
     }
 
+    stage('Data Factory') {
+      agent any
+      steps {
+        echo 'bonjour'
+        echo 'bonsoir'
+      }
+    }
+
   }
 }
